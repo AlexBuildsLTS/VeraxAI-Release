@@ -1,4 +1,3 @@
-````markdown
 <div align="center">
 
 # VeraxAI (Release Distribution)
@@ -20,7 +19,7 @@
   </a>
 </p>
 
-_This repository distributes compiled binary releases, installation guides, verification hashes, and changelogs for VeraxAI. Core proprietary source code remains private._
+*This repository distributes compiled binary releases, installation guides, verification hashes, and changelogs for VeraxAI. Core proprietary source code remains private.*
 
 </div>
 
@@ -32,10 +31,10 @@ _This repository distributes compiled binary releases, installation guides, veri
 
 ### Key Capabilities
 
-- **Hybrid Neural Topologies**: Run ultra-fast cloud synthesis via **Gemini 3.1 Flash-Lite** and **Groq Llama 3**, or switch to 100% offline, privacy-preserving local LLM inference (**Gemma-4 / Llama 3** via native C++ runtimes).
-- **High-Accuracy Speech-to-Text (ASR)**: Native on-device **Whisper.cpp (GGML)** acceleration combined with cloud Deepgram Nova-3 failover.
-- **Universal Stream Ingestion**: Multi-protocol extraction engine supporting raw audio/video files, YouTube streams, and web media URLs.
-- **Comprehensive Export Matrix**: Export actionable intelligence to formatted Markdown, Plain Text, SubRip (`.srt`), WebVTT (`.vtt`), and typed JSON schema payloads.
+*   **Hybrid Neural Topologies**: Run ultra-fast cloud synthesis via **Gemini 3.1 Flash-Lite** and **Groq Llama 3**, or switch to 100% offline, privacy-preserving local LLM inference (**Gemma-4 / Llama 3** via native C++ runtimes).
+*   **High-Accuracy Speech-to-Text (ASR)**: Native on-device **Whisper.cpp (GGML)** acceleration combined with cloud Deepgram Nova-3 failover.
+*   **Universal Stream Ingestion**: Multi-protocol extraction engine supporting raw audio/video files, YouTube streams, and web media URLs.
+*   **Comprehensive Export Matrix**: Export actionable intelligence to formatted Markdown, Plain Text, SubRip (`.srt`), WebVTT (`.vtt`), and typed JSON schema payloads.
 
 ---
 
@@ -76,7 +75,7 @@ flowchart TD
     LocalLLM -.-> EncryptedCache
     DB -.->|Realtime Sync| UI
 ```
-````
+
 
 ---
 
